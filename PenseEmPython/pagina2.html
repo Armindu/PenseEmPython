@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2: Variáveis, expressões e instruções</title>
+    <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/prism.css">
+</head>
+<body>
+    <h1>Capítulo 2: Variáveis, expressões e instruções</h1>
+    <hr>
+    <p>
+        Um dos recursos mais eficientes de uma linguagem de programação é a capacidade de manipular variáveis. Uma variável é um nome que se refere a um valor.
+    </p>
+    <div>
+        <h2>2.1 - Instruções de atribuição</h2>
+        <p>
+            Uma instrução de atribuição cria uma nova variável e dá um valor a ela:
+        </p>
+        <pre><code class="language-python">
+  >>> message = 'And now for something completely different'
+  >>> n = 17
+  >>> pi = 3.141592653589793
+        </code></pre>
+        <p>
+            Esse exemplo faz três atribuições. A primeira atribui uma string a uma nova variável chamada message; a segunda dá o número inteiro 17 a n; a terceira atribui o valor (aproximado) de π a pi.
+        </p>
+        <p>
+            Uma forma comum de representar variáveis por escrito é colocar o nome com uma flecha apontando para o seu valor. Este tipo de número é chamado de diagrama de estado porque mostra o estado no qual cada uma das variáveis está (pense nele como o estado de espírito da variável). A Figura 2.1 mostra o resultado do exemplo anterior.
+        </p>
+        <div>
+            <img src="imgs/tnkp_0201.png" alt="Figura 2.1 – Diagrama de estado."><br>
+            <em>Figura 2.1 – Diagrama de estado.</em>
+        </div>
+    </div>
+    <div>
+        <h2>2.2 - Nomes de variáveis</h2>
+        <p>
+            Os programadores geralmente escolhem nomes significativos para as suas variáveis – eles documentam o uso da variável.
+        </p>
+        <p>
+            Nomes de variáveis podem ser tão longos quanto você queira. Podem conter tanto letras como números, mas não podem começar com um número. É legal usar letras maiúsculas, mas a convenção é usar apenas letras minúsculas para nomes de variáveis.
+        </p>
+        <p>
+            O caractere de sublinhar (_) pode aparecer em um nome. Muitas vezes é usado em nomes com várias palavras, como your_name ou airspeed_of_unladen_swallow.
+        </p>
+        <p>
+            Se você der um nome ilegal a uma variável, recebe um erro de sintaxe:
+        </p>
+        <pre><code class="language-python">
+  >>> 76trombones = 'big parade'
+  SyntaxError: invalid syntax
+  >>> more@ = 1000000
+  SyntaxError: invalid syntax
+  >>> class = 'Advanced Theoretical Zymurgy'
+  SyntaxError: invalid syntax
+        </code></pre>
+        
+    </div>
+    <hr>
+    <a href="pagina1.html"><button>Página anterior</button></a><a href="pagina3.html"><button>Próxima página</button></a>
+    <script src="js/prism.js"></script>
+</body>
+</html>
